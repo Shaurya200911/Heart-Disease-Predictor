@@ -86,8 +86,8 @@
                 {% set prob_percent = (probability * 100) | round(1) %}
                 {% if prediction == 1 %}
                 <h2 class="text-danger mb-2">Risk Detected</h2>
-                <p class="lead mb-1">Estimated probability of risk: <strong>{{ prob_percent }}%</strong></p>
-                <p class="mb-2">Threshold used: <strong>{{ (threshold * 100) | round(0) }}%</strong></p>
+                <p class="lead mb-1">Estimated probability of Having Heart Disease: <strong>{{ prob_percent }}%</strong></p>
+<!--                <p class="mb-2">Threshold used: <strong>{{ (threshold * 100) | round(0) }}%</strong></p>-->
                 <div class="mb-3">
                     <span class="badge bg-danger">High caution — consult a clinician</span>
                 </div>
@@ -144,7 +144,6 @@
                         <div class="card-body">
                             <h3 class="card-title mb-3">Enter patient details</h3>
                             <form method="post" action="{{ url_for('predict') }}">
-                                <!-- CSRF token if you use Flask-WTF -->
                                 {% if csrf_token %}
                                 <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
                                 {% endif %}
@@ -318,8 +317,7 @@
                             </form>
 
                             <div class="mt-3 text-muted small">
-                                Tip: You don't need to fill every field. Missing values will be handled by the model's
-                                imputer.
+                                Tip: You don't need to fill every field. Missing values will be handled by the model
                             </div>
                         </div>
                     </div>
