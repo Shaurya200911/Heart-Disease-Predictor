@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0093e236-0f7d-48a3-b3f9-fe909141e8e6" name="Changes" comment="Simplify app.py">
-      <change afterPath="$PROJECT_DIR$/templates/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0093e236-0f7d-48a3-b3f9-fe909141e8e6" name="Changes" comment="README.md Added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +46,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mtronics Computers\Desktop\Shaurya\Personal projects\Portfolio\Github\Heart Disease Predictor" />
       <recent name="C:\Users\Mtronics Computers\Desktop\Shaurya\Personal projects\Portfolio\Github\Heart Disease Predictor\templates" />
     </key>
   </component>
@@ -75,7 +73,23 @@
       <option name="project" value="LOCAL" />
       <updated>1764006085327</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="README.md Added">
+      <option name="closed" value="true" />
+      <created>1764006679878</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1764006679878</updated>
+    </task>
+    <task id="LOCAL-00003" summary="README.md Added">
+      <option name="closed" value="true" />
+      <created>1764006763668</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1764006763668</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -91,7 +105,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Simplify app.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Simplify app.py" />
+    <MESSAGE value="README.md Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="README.md Added" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

@@ -15,10 +15,10 @@ Deployment-ready folder structure
 
 This project demonstrates skills in ML, pipelines, preprocessing, Flask development, model deployment, and UI integration.
 
-![Heart Disease Predictor - Hero Section.png](images/Heart%20Disease%20Predictor%20-%20Hero%20Section.png)
-![Heart Disease Predictor - Hero Section1.png](images/Heart%20Disease%20Predictor%20-%20Hero%20Section1.png)
-![Heart Disease Predictor - Form.png](images/Heart%20Disease%20Predictor%20-%20Form.png)
-![Heart Disease Predictor - Disclaimer.png](images/Heart%20Disease%20Predictor%20-%20Disclaimer.png)
+![Heart Disease Predictor - Hero Section.png](../../../../../../../Downloads/Heart%20Disease%20Predictor%20-%20Hero%20Section.png)
+![Heart Disease Predictor - Hero Section1.png](../../../../../../../Downloads/Heart%20Disease%20Predictor%20-%20Hero%20Section1.png)
+![Heart Disease Predictor - Form.png](../../../../../../../Downloads/Heart%20Disease%20Predictor%20-%20Form.png)
+![Heart Disease Predictor - Disclaimer.png](../../../../../../../Downloads/Heart%20Disease%20Predictor%20-%20Disclaimer.png)
 
 🚀 Features
 ✔ Machine Learning
@@ -247,7 +247,9 @@ Perfect for interviews, GitHub profile, and college applications.
 
 ⭐ Future Features (Planned)
 
-Public Website
+Persistent user history
+
+Graphical result visualization
 
 REST API mode for mobile apps
 
