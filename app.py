@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, flash
 import joblib, json, os
 import pandas as pd
 from pathlib import Path
+import xgboost
 
 app = Flask(__name__)
 app.secret_key = os.environ.get("FLASK_SECRET_KEY", "dev-key")
@@ -11,7 +12,7 @@ def current_year():
     from datetime import datetime
     return datetime.now().year
 
-MODEL_FILE = os.environ.get("MODEL_FILE", "final_xgb_heart_disease_model.joblib")
+MODEL_FILE = os.environ.get("MODEL_FILE", "full_heart_disease_prediction_pipeline.joblib")
 META_FILE = os.environ.get("META_FILE", "metadata.json")
 APP_DIR = Path(__file__).resolve().parent
 
@@ -19,7 +20,8 @@ APP_DIR = Path(__file__).resolve().parent
 model = None
 try:
     model = joblib.load(APP_DIR / MODEL_FILE)
-except Exception:
+except Exception as e:
+    print("Error loading model:", e)
     model = None
 
 # load metadata safely and ensure expected is a list
